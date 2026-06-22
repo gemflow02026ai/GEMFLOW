@@ -1,0 +1,18 @@
+# Jewel Mission - Backend Requirements
+# Install with: pip install -r requirements.txt
+
+# ── Web framework ──────────────────────────────────────────────────────────
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.20      # Required for Form/File uploads in FastAPI
+
+# ── Environment ────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── Image processing (zero-hallucination mask pipeline) ───────────────────
+Pillow==11.1.0
+numpy==2.2.1
+
+# ── AI APIs ────────────────────────────────────────────────────────────────
+openai==1.59.6                # gpt-image-1 image editing
+google-genai==1.10.0          # Gemini 2.5 Flash + Imagen 4
