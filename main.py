@@ -263,7 +263,7 @@ Only cleanup, enhancement, retouching, support removal, white background replace
         model="gpt-image-2-2026-04-21",
         image=out,
         prompt=prompt,
-        size="1024x1024",
+        size="2048x2048",
     )
 
     print(f"[LOG] OpenAI response received")
