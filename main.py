@@ -222,7 +222,7 @@ RETAIN EXACTLY:
 •⁠  ⁠Construction details
 •⁠  ⁠Product orientation
 IMAGE ENHANCEMENT REQUIREMENTS
-•⁠  ⁠Increase image quality to high-resolution 1K output
+•⁠  ⁠Increase image quality to high-resolution 2K output
 •⁠  ⁠Recover fine jewelry details
 •⁠  ⁠Enhance gemstone clarity
 •⁠  ⁠Enhance metal surface definition
@@ -255,7 +255,7 @@ ZERO redesign.
 ZERO imagination.
 ZERO artistic interpretation.
 ZERO generated design changes.
-Only cleanup, enhancement, retouching, support removal, white background replacement, and 1K upscaling"""
+Only cleanup, enhancement, retouching, support removal, white background replacement, and 2K upscaling"""
 
     print(f"[LOG] Sending direct image and prompt to OpenAI (model: gpt-image-2-2026-04-21)...")
 
@@ -263,7 +263,7 @@ Only cleanup, enhancement, retouching, support removal, white background replace
         model="gpt-image-2-2026-04-21",
         image=out,
         prompt=prompt,
-        size="1024x1024",
+        size="2048x2048",
     )
 
     print(f"[LOG] OpenAI response received")
